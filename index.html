@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Charlie's Challenges</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="Images/favicon.ico" rel="icon">
+    <link href="Content/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/icofont.min.css" rel="stylesheet">
+    <link href="Content/boxicons.min.css" rel="stylesheet">
+    <link href="Content/venobox.css" rel="stylesheet">
+    <link href="Content/owl.carousel.min.css" rel="stylesheet">
+    <link href="Content/aos.css" rel="stylesheet">
+    <link href="Content/prism.css" rel="stylesheet" />
+    <script src="Scripts/prism.js"></script>
+
+    <!-- Template Main CSS File -->
+    <link href="Content/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: MyResume - v2.1.0
+    * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+    <style>
+
+        .headerbg {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            animation-name: example;
+            animation-duration: 60s;
+            animation-iteration-count:infinite;
+        }
+
+        @keyframes example {
+            0% {
+                background-color: black;
+            }
+
+            20% {
+                background-color:darkred;
+            }
+
+            40% {
+                background-color:darkorange;
+            }
+
+            60% {
+                background-color:firebrick;
+            }
+
+            80% {
+                background-color:orangered;
+            }
+            98% {
+                background-color:darkred;
+            }
+
+            100% {
+                background-color: black;
+            }
+
+           
+        }
+
+        .output {
+            background-color: black;
+            border: solid;
+            border-radius: 2rem;
+            color: white;
+            text-align: center;
+            line-height: 2rem;
+        }
+
+        .border {
+            border: medium;
+            border-radius: 2rem;
+            border-color: black;
+        }
+
+        .formula {
+            text-align: center;
+            border: solid;
+            border-color: black;
+            border-radius: 2rem;
+        }
+
+        .tainermid {
+            padding-top: 25rem;
+        }
+
+        .container {
+            text-align: center;
+        }
+        .newcontent {
+            background-color: black;
+            color:white;
+            padding:2rem;
+            border-radius:.5rem;
+   
+          
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <!-- ======= Mobile nav toggle button ======= class="mobile-nav-toggle d-xl-none"-->
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button><!--Nav button fix-->
+    <!-- ======= Header ======= -->
+    <header id="header" class=" justify-content-center">
+        <img src="Images/charlie-nav.png" /><br /><!--Profile picture-->
+
+        <nav class="nav-menu ">
+            <ul>
+                <li>
+                    <a href="#hero">
+                        <img src="Images/icons8-taco-24.png" /><span>TacocaT</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <img src="Images/icons8-soda-24.png" /><span>FizzBuzz</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills">
+                        <img src="Images/icons8-buildings-24.png" /> <span>Sunset Hills</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#resume">
+                        <img src="Images/icons8-ghost-24.png" /> <span>Sum of All Fears</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://charlieslanding.netlify.app/#challenges">
+                        <img src="Images/icons8-home-24.png" /><span>Back to Charlie Tincher's Portfolio</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- end .nav-menu -->
+        <!--<div class="social-links">
+            <a href="https://twitter.com/charlie_tincher" target="blank">
+                <img src="Images/icons8-twitter-circled-40.png" />
+            </a>
+            <a href="https://www.linkedin.com/in/charles-tincher-ba40671b8/" target="blank">
+                <img src="Images/icons8-linkedin-48.png" />
+            </a>
+            <a href="https://github.com/Charlie8282" target="blank">
+                <img src="Images/icons8-github-48.png" />
+            </a>
+        </div>-->
+
+
+
+    </header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="justify-content-center headerbg">
+        <div class="container newcontent">
+            <h1>Sum of All Fears</h1>
+            <p> <span class="typed">An algorithm for coders.</span></p>
+            <p>This is a challenge where I coded a program that has the abilty to receive six numeric inputs from you the user.  The last entry will represent K and if any if any of the first four numbers can be added together to equal K or not. </p>
+
+           
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm"><input type="text" id="userInput0" /></div>
+                        <div class="col-sm"><input type="text" id="userInput1" /></div>
+                        <div class="col-sm"><input type="text" id="userInput2" /></div>
+                        <div class="col-sm"><input type="text" id="userInput3" /></div>
+                        <div class="col-sm"><input type="text" id="userInput4" /></div>
+
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col"><button id="userBtn">Do the math</button></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col output" id="userOut"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section><!-- End Hero -->
+    <!-- End #main -->
+    <!-- ======= Footer ======= -->
+
+    <footer id="footer">
+
+
+        <div>
+            <a href="https://twitter.com/charlie_tincher" target="blank">
+                <img src="Images/icons8-twitter-circled-40.png" />
+            </a>
+            <a href="https://www.linkedin.com/in/charles-tincher-ba40671b8/" target="blank">
+                <img src="Images/icons8-linkedin-48.png" />
+            </a>
+            <a href="https://github.com/Charlie8282" target="blank">
+                <img src="Images/icons8-github-48.png" />
+            </a>
+            <!--</div>-->
+            <div class="copyright">
+                &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: [license-url] -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Icons by <a href="https://icons8.com/icon/88601/home">by Icons8</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+    <!--<a href="#" class="back-to-top">
+        <img src="Images/icons8-to-top-48.png" />
+    </a>
+    <div id="preloader"></div>-->
+
+    <script>
+
+
+
+
+        document.getElementById("userBtn").addEventListener("click", function twoSum() {
+            let s1 = parseInt(document.getElementById("userInput0").value);
+            let s2 = parseInt(document.getElementById("userInput1").value);
+            let s3 = parseInt(document.getElementById("userInput2").value);
+            let s4 = parseInt(document.getElementById("userInput3").value);
+            let targetNum = parseInt(document.getElementById("userInput4").value);
+            let userNums = [s1, s2, s3, s4];
+            let result = [];
+
+            for (let x = 0; x < userNums.length - 1; x++) {
+                let test = targetNum - userNums[x];
+                if (userNums.includes(test)) {
+                    result.push([userNums[x], test]);
+                }
+            } if (result.length > 0) {
+                document.getElementById("userOut").innerHTML = result[0];
+            } else {
+                document.getElementById("userOut").innerHTML = "There are no matches";
+            }
+
+        })
+
+
+    </script>
+
+  
+    <!-- Vendor JS Files -->
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+    <script src="Scripts/jquery.easing.min.js"></script>
+    <script src="Scripts/validate.js"></script>
+    <script src="Scripts/jquery.waypoints.min.js"></script>
+    <script src="Scripts/counterup.min.js"></script>
+    <script src="Scripts/isotope.pkgd.min.js"></script>
+    <script src="Scripts/venobox.min.js"></script>
+    <script src="Scripts/owl.carousel.min.js"></script>
+    <script src="Scripts/typed.min.js"></script>
+    <script src="Scripts/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="/Scripts/main.js"></script>
+
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">CV coming soon!</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
